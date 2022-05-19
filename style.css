@@ -22,7 +22,7 @@ header{
     align-items: center;
     gap: 650px;
     color: gray;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 header nav{
@@ -48,6 +48,63 @@ header nav{
 #profilepic{
     width: 280px;
     border-radius: 100%;
+}
+
+/* ---- portfolio ----*/
+
+.p-container{
+    display: flex; 
+    gap: 60px; 
+    margin-left: 180px;
+    width: 1000px;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border-bottom: 0.5px solid gray;
+}
+
+.p-description{
+    width: 400px;
+}
+
+#explimg{
+    display: flex;
+    gap: 2px;
+}
+
+#expl3img{
+    margin-bottom: -2px;
+}
+
+.transf{
+    transition: transform 0.5s;
+    z-index: 1;
+    position: relative;
+}
+
+.transf:hover{
+    transform: scale(1.7);
+    z-index: 100;
+}
+
+.transf2{
+    transition: transform 0.5s;
+    z-index: 1;
+    position: relative;
+}
+
+.transf2:hover{
+    transform: scale(1.5);
+    z-index: 100;
+}
+
+#ecotr{
+    display: flex;
+    gap: 4px;
+}
+
+#ecotr img{
+    border: 1px white solid;
 }
 
 
