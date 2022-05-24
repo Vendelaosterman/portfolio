@@ -18,10 +18,9 @@ a :active{
 }
 
 header{
-    margin-left: 150px;
     display: flex;
     align-items: center;
-    gap: 730px;
+    gap: 50%;
     color: gray;
 }
 
@@ -30,10 +29,14 @@ header nav{
     gap: 20px;
 }
 
+header a{
+    margin-left: 20%;
+}
+
 /* ---- about ----*/
 .about-container{
     width: 900px;
-    margin-left: 230px;
+    margin-left: 497px;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -60,7 +63,7 @@ header nav{
 .p-container{
     display: flex; 
     gap: 60px; 
-    margin-left: 180px;
+    margin-left: 497px;
     width: 1000px;
     align-items: center;
     padding-bottom: 80px;
@@ -80,7 +83,7 @@ header nav{
 
 .p-container-test{
     display: flex; 
-    margin-left: 180px;
+    margin-left: 497px;
     width: 1000px;
     align-items: center;
     padding-bottom: 80px;
@@ -175,5 +178,156 @@ header nav{
     gap: 10px;
     margin-top: -20px;
 }
+
+
+@media screen and (max-width: 1700px) {
+    .about-container, .p-container, .p-container-test{
+        margin-left: 427px;
+    }
+
+ }
+
+ @media screen and (max-width: 1500px) {
+    .about-container, .p-container, .p-container-test{
+        margin-left: 267px;
+    }
+
+    header a{
+        margin-left: 15%;
+    }
+ }
+
+ @media screen and (max-width: 1200px) {
+    .about-container, .p-container, .p-container-test{
+        margin-left: 140px;
+    }
+
+    header a{
+        margin-left: 14%;
+    }
+ }
+
+ @media screen and (max-width: 700px) {
+    .about-container{
+        margin-left: 170px;
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .p-container{
+        margin-left: 60px;
+    }
+
+    .p-container-test{
+        margin-left: 0px;
+        flex-direction: column;
+    }
+
+    .p-description-test{
+        width: 400px;
+        margin-left: -470px;
+    }
+
+
+    #explBig{
+        width: 200px;
+        height: 250px;
+        margin-left: -250px;
+    }
+
+    #expl3img{
+        margin-bottom: 0px;
+    }
+
+    .p-description{
+        width: 200px;
+    }
+
+    video{
+        width: 300px;
+    }
+
+    #checkingImg{
+        width: 300px;
+    }
+
+    #ecotr img{
+        width: 100px;
+    }
+
+    .flyers img{
+        width: 100px;
+    }
+
+    header a{
+        margin-left: 7%;
+    }
+ }
+
+ @media screen and (max-width: 390px) {
+     header{
+         flex-direction: column;
+         align-items: center;
+     }
+
+     header nav{
+         flex-direction: column;
+         gap: 10px;
+     }
+
+     header a{
+         margin-left: 10px;
+     }
+
+    .about-container{
+        flex-direction: column;
+        margin-left: 40px;
+        padding: 0px;
+        width: 300px;
+    }
+
+    #presentation{
+        width: 300px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .p-container{
+        flex-direction: column;
+        margin-left: 38px;
+        width: 300px;
+    }
+
+    .p-description-test{
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .p-container-test{
+        width: 300px;
+        margin-left: 38px;
+    }
+
+    #explimg{
+        flex-direction: column;
+    }
+
+    #explimg div{
+        margin-left: 65px;
+        flex-direction: column;
+    }
+
+    #explimg div img{
+        width: 160px;
+    }
+
+    #explBig{
+        margin-left: 45px;
+    }
+
+    /*header a{
+        margin-left: 14%;
+    }*/
+ }
 
 
